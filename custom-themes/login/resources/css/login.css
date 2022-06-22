@@ -1,0 +1,263 @@
+@font-face {
+  font-family: 'Baton Turbo';
+  src: url('../fonts/BatonTurbo-Bold.woff2') format('woff2'),
+      url('../fonts/BatonTurbo-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Baton Turbo';
+  src: url('../fonts/BatonTurbo-BoldItalic.woff2') format('woff2'),
+      url('../fonts/BatonTurbo-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Baton Turbo';
+  src: url('../fonts/BatonTurbo-Book.woff2') format('woff2'),
+      url('../fonts/BatonTurbo-Book.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Baton Turbo';
+  src: url('../fonts/BatonTurbo-HeavyItalic.woff2') format('woff2'),
+      url('../fonts/BatonTurbo-HeavyItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Baton Turbo';
+  src: url('../fonts/BatonTurbo-RegularItalic.woff2') format('woff2'),
+      url('../fonts/BatonTurbo-RegularItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Baton Turbo';
+  src: url('../fonts/BatonTurbo-Heavy.woff2') format('woff2'),
+      url('../fonts/BatonTurbo-Heavy.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Baton Turbo';
+  src: url('../fonts/BatonTurbo-MediumItalic.woff2') format('woff2'),
+      url('../fonts/BatonTurbo-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Baton Turbo';
+  src: url('../fonts/BatonTurbo-Regular.woff2') format('woff2'),
+      url('../fonts/BatonTurbo-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Baton Turbo';
+  src: url('../fonts/BatonTurbo-Medium.woff2') format('woff2'),
+      url('../fonts/BatonTurbo-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Baton Turbo';
+  src: url('../fonts/BatonTurbo-BookItalic.woff2') format('woff2'),
+      url('../fonts/BatonTurbo-BookItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
+* {
+  font-family: "Baton Turbo", sans-serif;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-size: cover !important;
+  position: relative;
+  overflow: hidden;
+  background-color: #EAEFF1;
+}
+
+/* body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+  background: #fff;
+} */
+
+.login-pf-page {
+  width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.21);
+  height: 600px;
+}
+
+#kc-content {
+  width: 44%;
+  background: #fff;
+  padding: 50px 25px 50px 45px;
+  border-radius: 8px 0 0 8px;
+}
+
+.trans-image {
+  background-size: auto 600px !important;
+  border-radius: 0 8px 8px 0;
+  /* background-position: 75% 50% !important; */
+}
+
+.login-logo {
+  display: block;
+  height: 42px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 8px;
+  color: #222222;
+}
+
+.form-group input {
+  height: 32px;
+  width: 275px;
+  padding: 3px 15px;
+  font-size: 14px;
+  color: #444;
+  font-weight: 500;
+  outline: none;
+  border: 1px solid #858F94;
+}
+
+input.input-error{
+  border: 1px solid #D93024;
+  background: white;
+}
+
+.form-group .btn-primary {
+  height: 40px;
+  width: 150px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+
+#fogot-password {
+  font-size: 14px;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.login-pf-page .alert {
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.65);
+  width: 270px;
+  line-height: 22px;
+}
+
+.login-pf-page .alert-error {
+  background-color: #fde3e1;
+  border: 1px solid #D93024;
+}
+
+#kc-content h4 {
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 0px;
+}
+
+#kc-content p {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.heading-style{
+  font-size: 19px;
+}
+
+.version-number-style{
+  font-size: 12px;
+  text-align: right;
+}
+
+.login-font-style{
+  font-family: 'Baton Turbo';
+  font-weight: bold;
+  color: #222222;
+}
+
+#kc-content-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+#kc-form-button{
+  margin-top: 30px;
+}
+
+.login-pf-page .alert-success{
+  background-color: #00AF2022;
+  border: 1px solid #00AF20;
+}
+
+.ion-md-close-circle-outline {
+  color: #D93024;
+  font-size: 50px;
+}
+
+#kc-error-message{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-pf{
+  display: flex;
+  height: 100%;
+}
