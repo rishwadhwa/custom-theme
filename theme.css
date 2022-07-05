@@ -1,0 +1,55 @@
+:root {
+    --primary: #7E00BF;
+    --secondary: #56317B;
+    --background: #F2F6FA;
+    --tertiary: #F3FBFF;
+    --lightOpacity: rgba(255,255,255,0.2);
+    --darkOpacity: rgba(0,0,0,0.2);
+    --dark: #000000;
+    --light: #FFFFFF;
+    --lightBlue: #f4fbff;
+    --success: #37bb53;
+    --danger: #dc3545;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --light: #FFFFFF;
+    --dark: #343a40;
+    --link: #3C99BE;
+    --success: #38BA54;
+    --danger: #EC0033;
+    --info: #90A4AE;
+    --warning: #CDB800;
+    --light: #F3FBFF;
+    --dark: #56317B;
+    --link: #7E00BF;
+    --success: #37bb53;
+    --danger: #dc3545;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --light: #FFFFFF;
+    --dark: #222222;
+    --primarystart: #3c99be;
+    --primaryend: #ffffff;
+    --primaryBorder: #ffffff;
+    --primaryText: #ffffff;
+    --secondary: #3c99ae;
+    --secondaryBorder: #ffffff;
+    --secondaryText: #ffffff;
+    --lightText: #3c99be;
+    --gray1: #4B4B4B;
+    --gray2: #9A9A9A;
+    --gray3: #DADADA;
+    --gray4: #F5F5F5;
+    --gray5: #ACACBF;
+    --gray6: #EAEFF1;
+    --main: brown;
+
+    --gray100: #F7F8F9;
+
+    --black50: #EAEFF1;
+    --black100: #DAE1E5;
+    --black400: #858F94;
+
+    --notice: #FF8A00;
+  }
+  
